@@ -14,3 +14,7 @@ alias vi="nvim"
 alias vim="nvim"
 
 export PATH="$HOME/.local/bin:$PATH"
+
+if command -v tmux >/dev/null 2>&1 && [ -z "$TMUX" ]; then
+  exec tmux
+fi

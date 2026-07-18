@@ -32,3 +32,6 @@ fi
 # zsh 補完機能
 autoload -Uz compinit
 compinit
+
+# プロンプト設定
+PROMPT='%n@%m:%~ %# '
